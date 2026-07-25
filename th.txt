@@ -13,3 +13,9 @@ eg
 
 Header :valid
 userDetail : not valid..
+
+
+3 style:
+1)inline css*
+2)internal css
+3)external css*
