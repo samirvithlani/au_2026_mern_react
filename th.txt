@@ -1,0 +1,15 @@
+
+componen based arch:
+custome component
+
+2 type of components we can create:
+
+1)class based component
+2) function based component: 16.x
+
+
+componsnt name must start with Cap
+eg
+
+Header :valid
+userDetail : not valid..
