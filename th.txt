@@ -19,3 +19,9 @@ userDetail : not valid..
 1)inline css*
 2)internal css
 3)external css*
+
+
+array:
+iterate: loops : for loop:
+forEach,map
+void  , array
