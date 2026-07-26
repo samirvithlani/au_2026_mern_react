@@ -25,3 +25,27 @@ array:
 iterate: loops : for loop:
 forEach,map
 void  , array
+
+react routing:
+
+single page applicaiton;index.html
+
+component: url:
+
+npm i react-router-dom
+
+<BrowserRouter> : to enable routing in react applicaiton: main.jsx
+<Routes> : to hold all route in single tag :app.jsx
+<Route>: to create url for component :app.jsx
+<a> :<Link> : react-router-dom
+href : to
+
+hotstar folder src
+    Movies.jsx
+    Shows.jsx
+
+        url app.jsx routes
+
+create component Navbar in component
+
+
