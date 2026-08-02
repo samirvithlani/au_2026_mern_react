@@ -49,3 +49,4 @@ hotstar folder src
 create component Navbar in component
 
 
+pass data in url:

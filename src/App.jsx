@@ -15,6 +15,7 @@ import { Shows } from './components/hotstar/Shows'
 import { Navbar } from './components/Navbar'
 import { Home } from './components/hotstar/Home'
 import { Error404 } from './components/Error404'
+import { Watch } from './components/hotstar/Watch'
 
 function App() {
   
@@ -27,6 +28,8 @@ function App() {
         <Route path='/movies' element ={<Movies/>}></Route>
         <Route path='/shows' element ={<Shows/>}></Route>
         <Route path='/' element ={<Home/>}></Route>
+        {/* <Route path='/watch' element ={<Watch/>}></Route> */}
+        <Route path='/watch/:name' element ={<Watch/>}></Route>
         <Route path='/*' element ={<Error404/>}></Route>
       </Routes>
     </div>
