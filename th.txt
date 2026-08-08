@@ -258,6 +258,19 @@ og dom -->changes reflect --> state variable
 
 useState:
 
+var a =[1,2,3]
+console.log(a)
+
+var x = a.push(100) //original change
+console.log(a)
+console.log(x)
+
+var newaarray = [...a,99]
+console.log(newaarray)
+
+spread operator ...
+array [...array name]
+object {...objectname}
 
 
 
