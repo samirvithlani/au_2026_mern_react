@@ -5,7 +5,11 @@ export const UseStateDemo2 = () => {
 
     const stopLoader = ()=>{
         //loading = false
-        setLoading(false)
+        if(loading==true){
+            setLoading(false)
+        }else{
+            setLoading(true)
+        }
     }
 
   return (
@@ -14,7 +18,7 @@ export const UseStateDemo2 = () => {
         {
             loading == true && <h1>Loading...</h1>
         }
-        <button onClick={stopLoader}>STOP</button>
+        <button onClick={stopLoader}>{loading==true?"STOP":"START"}</button>
         
     </div>
   )
