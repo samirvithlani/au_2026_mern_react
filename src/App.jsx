@@ -16,6 +16,8 @@ import { Navbar } from './components/Navbar'
 import { Home } from './components/hotstar/Home'
 import { Error404 } from './components/Error404'
 import { Watch } from './components/hotstar/Watch'
+import { UseStateDemo1 } from './components/UseStateDemo1'
+import { UseStateDemo2 } from './components/UseStateDemo2'
 
 function App() {
   
@@ -30,6 +32,8 @@ function App() {
         <Route path='/' element ={<Home/>}></Route>
         {/* <Route path='/watch' element ={<Watch/>}></Route> */}
         <Route path='/watch/:name' element ={<Watch/>}></Route>
+        <Route path='/usestatedemo1' element ={<UseStateDemo1/>}></Route>
+        <Route path='/usestatedemo2' element ={<UseStateDemo2/>}></Route>
         <Route path='/*' element ={<Error404/>}></Route>
       </Routes>
     </div>

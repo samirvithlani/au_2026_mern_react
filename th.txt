@@ -228,3 +228,37 @@ TeamDetail: -->
     "logo": "https://example.com/ipl/logo/srh.png"
   }
 ]
+
+
+hookss:
+hooks are builtin or udf function which directly connected to component life cycle
+
+all hooks are starts with use prefix
+eg:useState,useMemo,useEffect ......etc
+
+
+
+useState:
+to maintain state in single page application will use useState:
+
+DOM: document objecy model
+
+dom --->dyanmic data  ---> js
+
+
+dom -->10 objects -->11th object -->dom 11th append
+new dom -->10 copy 11 add
+
+react --> concept -> virtual dom:
+
+copy <<---->>og dom
+
+browser [dom] -->cahnge ---> virtual dom --> compare -->og dom ---> update
+og dom -->changes reflect --> state variable
+
+useState:
+
+
+
+
+
